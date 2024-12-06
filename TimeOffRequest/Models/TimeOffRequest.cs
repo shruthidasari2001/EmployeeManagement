@@ -8,7 +8,7 @@ public class TimeOffRequest
     public virtual DateTime StartDate { get; set; } // Marked as virtual
     public virtual DateTime EndDate { get; set; } // Marked as virtual
     public virtual string? Status { get; set; } // Marked as virtual
-    public virtual string Comment { get; set; } // Marked as virtual
+    public virtual string? Comment { get; set; } // Marked as virtual
     public virtual int? ApproverID { get; set; } // Marked as virtual
 
 }

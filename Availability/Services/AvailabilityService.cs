@@ -61,7 +61,7 @@ namespace EmployeeManagement.Services
             return _session.Query<Availability>().Where(a => a.EmployeeID == employeeID).ToList();
         }
 
-        public void DeleteAvailability(int availabilityID)
+        public void DeleteAvailability(long availabilityID)
         {
             var availability = _session.Get<Availability>(availabilityID);
             if (availability == null)

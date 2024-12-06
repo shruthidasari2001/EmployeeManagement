@@ -7,6 +7,6 @@ namespace EmployeeManagement.Services
     {
         void AddAvailability(Availability availability);
         IEnumerable<Availability> GetEmployeeAvailability(int employeeID);
-        void DeleteAvailability(int availabilityID);
+        void DeleteAvailability(long availabilityID);
     }
 }

@@ -38,7 +38,7 @@ namespace EmployeeManagement.Controllers
         }
 
         [HttpDelete("{availabilityID}")]
-        public ActionResult DeleteAvailability(int availabilityID)
+        public ActionResult DeleteAvailability(long availabilityID)
         {
             try
             {
